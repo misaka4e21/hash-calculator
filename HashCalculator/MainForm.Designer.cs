@@ -66,12 +66,12 @@
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(32, 13);
 			this.label1.TabIndex = 1;
-			this.label1.Text = "Path:";
+			this.label1.Text = "文件：";
 			// 
 			// ChkMD5
 			// 
 			this.ChkMD5.AutoSize = true;
-			this.ChkMD5.Checked = true;
+			this.ChkMD5.Checked = false;
 			this.ChkMD5.CheckState = System.Windows.Forms.CheckState.Checked;
 			this.ChkMD5.Location = new System.Drawing.Point(15, 57);
 			this.ChkMD5.Name = "ChkMD5";
@@ -106,7 +106,7 @@
 			// ChkSHA1
 			// 
 			this.ChkSHA1.AutoSize = true;
-			this.ChkSHA1.Checked = true;
+			this.ChkSHA1.Checked = false;
 			this.ChkSHA1.CheckState = System.Windows.Forms.CheckState.Checked;
 			this.ChkSHA1.Location = new System.Drawing.Point(15, 83);
 			this.ChkSHA1.Name = "ChkSHA1";
@@ -154,7 +154,7 @@
 			// ChkSHA512
 			// 
 			this.ChkSHA512.AutoSize = true;
-			this.ChkSHA512.Checked = true;
+			this.ChkSHA512.Checked = false;
 			this.ChkSHA512.CheckState = System.Windows.Forms.CheckState.Checked;
 			this.ChkSHA512.Location = new System.Drawing.Point(15, 135);
 			this.ChkSHA512.Name = "ChkSHA512";
@@ -184,7 +184,7 @@
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(264, 13);
 			this.label2.TabIndex = 12;
-			this.label2.Text = "Paste an hash here to compare with the above results:";
+			this.label2.Text = "将 hash 值粘贴到此处以和文件 hash 比对：";
 			// 
 			// LnkWebsite
 			// 
@@ -195,7 +195,7 @@
 			this.LnkWebsite.Size = new System.Drawing.Size(80, 13);
 			this.LnkWebsite.TabIndex = 13;
 			this.LnkWebsite.TabStop = true;
-			this.LnkWebsite.Text = "AirVPN website";
+			this.LnkWebsite.Text = "源代码";
 			this.LnkWebsite.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkWebsite_LinkClicked);
 			// 
 			// label3
@@ -206,7 +206,7 @@
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(316, 13);
 			this.label3.TabIndex = 14;
-			this.label3.Text = "Released under Open Source GPL3 license. More information on ";
+			this.label3.Text = "按照 GPLv3 授权条款发布。";
 			// 
 			// CmdCompute
 			// 

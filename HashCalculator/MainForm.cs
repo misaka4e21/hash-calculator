@@ -63,7 +63,7 @@ namespace HashCalculator
 
 		private void LnkWebsite_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
 		{
-			Process.Start("https://airvpn.org/faq/software_signatures/");
+			Process.Start("https://github.com/misaka4e21/hash-calculator");
 		}
 
 		private void TxtCheck_TextChanged(object sender, EventArgs e)
@@ -146,7 +146,7 @@ namespace HashCalculator
 						try
 						{
 							t.BackColor = Color.LightYellow;
-							t.Text = "Calculation...";							
+							t.Text = "计算中……";
 							t.Text = GetHash(TxtPath.Text, algo);							
 						}
 						catch (Exception e)
@@ -156,7 +156,7 @@ namespace HashCalculator
 						t.Refresh();
 					}
 					else
-						t.Text = "Unknown algorithm.";
+						t.Text = "未知的算法。";
 				}
 			}
 			else

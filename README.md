@@ -11,3 +11,6 @@ Maded for AirVPN Community
 https://airvpn.org/faq/software_signatures/
 
 Released under GPL3
+
+Translators:
+zh_CN: misaka4e21
